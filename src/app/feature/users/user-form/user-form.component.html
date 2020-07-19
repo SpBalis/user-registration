@@ -1,0 +1,12 @@
+<form [formGroup]="userForm">
+
+  <mat-form-field>
+    <mat-label>User Name</mat-label>
+    <input type="text" matInput placeholder="Place your Name" formControlName="name">
+  </mat-form-field>
+  <mat-form-field class="ml-5">
+    <mat-label>User Phone</mat-label>
+    <input type="phone" matInput placeholder="Place your phone" formControlName="phone" class="col-6">
+  </mat-form-field>
+
+</form>

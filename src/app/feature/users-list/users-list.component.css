@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+}
+
+mat-cell hover {
+  cursor: pointer !important;
+}
+
+.custom-margin {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
